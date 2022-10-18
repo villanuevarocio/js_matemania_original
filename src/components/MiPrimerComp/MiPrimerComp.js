@@ -4,7 +4,7 @@ import './miPrimerComp.css'
 export const MiPrimerComp = () => {
     return (
         <>
-            <h1>Fundamentos JS</h1>
+            <h1>MATEMANIA</h1>
             <hr className='mb-4' />
         </>
     )
