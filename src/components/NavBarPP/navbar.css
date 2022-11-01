@@ -1,0 +1,8 @@
+#navbar {
+    align-content: center;
+}
+#imagen_logo {
+    border-radius: 5px;
+    filter:drop-shadow(1.1);
+    mix-blend-mode:multiply;
+}

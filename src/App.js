@@ -9,7 +9,7 @@ import { JsArray } from "./components/fundamentos/04-Array";
 import { CardGrid } from "./components/CardGrid/CardGrid";
 import { productos } from "./data/productos";
 import { DesestObj } from "./components/fundamentos/06-DesestObj";
-import { MiPrimerComp } from "./components/MiPrimerComp/MiPrimerComp";
+import { Carrusel } from "./components/Carrusel/carrusel";
 import { DesestArray } from "./components/fundamentos/07-DesestArray";
 import { NavBar } from "./components/NavBarPP/NavBar";
 import { Footer } from "./components/Footer/Footer";
@@ -23,17 +23,14 @@ function App() {
   return (
     <>
     <NavBar />
-      <Routes>
+    <br/>
+    <Carrusel/>
 
-        <Route path="/" element={<Home />} />
 
-      </Routes>
 
-    
+    <HeroBanner />
 
-      <HeroBanner />
-
-      <CardGrid data={productos} />
+    <CardGrid data={productos} />
 
 
     <Footer />
