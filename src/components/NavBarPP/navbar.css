@@ -1,8 +1,11 @@
-#navbar {
-    align-content: center;
+
+#nav_menu {
+    width: auto;
+    height:auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
-#imagen_logo {
-    border-radius: 5px;
-    filter:drop-shadow(1.1);
-    mix-blend-mode:multiply;
+
+#logo_mate {
+    width: 100px;
+    margin-left: 80px;
 }

@@ -1,41 +1,55 @@
 import React from 'react';
-import { navButtos } from '../../data/productos';
 import './navbar.css';
 import { logo } from '../../assets';
 
 
 export const NavBar = () =>{
-    // console.log(navButtos
-    return(<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div classNameName="container-fluid">
-      <a className="navbar-brand" > 
-            <img src={logo} 
-            alt="logo" width={"100px"} id="imagen_logo"/> 
-            <h2>Matemania</h2>
-       </a>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbar">
-        <ul className="navbar-nav">
-            <li className= "nav-item "> <a className="nav-link active "> Inicio</a> </li>
-          <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Productos</a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link active" href="#">Contacto</a>
-          </li>        
-          <li className="nav-item dropdown">
-            <a className="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Mas
-            </a>
-            <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a className="dropdown-item" href="#">Como cuidar tu mate</a></li>
-              <li><a className="dropdown-item" href="#">Preguntas frecuentes</a></li>
+    return(
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id='nav_menu'>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src={logo} alt="logo" id="logo_mate"/>
+            <h1>MATE MANIA ✤</h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobres Nostros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Más
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Cuida tu Mate</a></li>
+                  <li><a class="dropdown-item" href="#">Preguntas frecuentes</a></li>
+                  <li><a class="dropdown-item" href="#">Historia</a></li>
+                </ul>
+              </li>
+              <li id="icons">
+                <div class="h3">
+                  <i class="bi bi-cart-fill"></i>
+                </div>
+              </li>
             </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>)
+            <form class="d-flex">
+              <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    )
 }
