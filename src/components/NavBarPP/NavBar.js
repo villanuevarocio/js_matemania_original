@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import { logo } from '../../assets';
+import { Link } from 'react-router-dom';
 
 
 export const NavBar = () =>{
@@ -17,13 +18,17 @@ export const NavBar = () =>{
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="./index.html">Inicio</a>
+                <a class="nav-link" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./productos.html">Productos</a>
+                <Link
+                to="productos">
+                <a class="nav-link" >Productos</a>
+                </Link>
+                
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./Contacto.html">Contacto</a>
+                <a class="nav-link" href="#">Contacto</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Sobres Nostros</a>

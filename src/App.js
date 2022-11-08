@@ -12,26 +12,38 @@ import { Confiar } from "./components/Confiar/Confiar";
 import { Destacados } from "./components/Destacados/destacados";
 import { NavBar } from "./components/NavBarPP/NavBar";
 import { Footer } from "./components/Footer/Footer";
-import { Home } from "./components/pages/Home";
+import { Productos, Productos2 } from "./components/pages/Productos";
+import { Contacto } from "./components/pages/Contacto";
+import { Inicio } from "./components/pages/Inicio";
+import { SobreNosotros } from "./components/pages/Sobrenosotros";
 
 
 
 function App() {
+
+  
   //  console.log(dataProducts)
   return (
     <>
     <NavBar />
-    <br/>
-    <Carrusel/>
-    <br />
-    <Destacados/>
+      <Routes>
+      
+        <Route path="/productos" element={<Productos2 />} />
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/inicio" element={<Inicio />} />
+        <Route path="/sobrenosotros" element={<SobreNosotros />} />
+        
+      </Routes>
+    
+    
+    
 
-    <br/>
+    
 
 
 
     {/* <CardGrid data={productos} /> */}
-    <Confiar />
+    
 
 
 
