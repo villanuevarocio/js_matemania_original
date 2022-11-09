@@ -22,7 +22,7 @@ import { SobreNosotros } from "./components/pages/Sobrenosotros";
 function App() {
 
   
-  //  console.log(dataProducts)
+  
   return (
     <>
     <NavBar />
@@ -34,18 +34,6 @@ function App() {
         <Route path="/sobrenosotros" element={<SobreNosotros />} />
         
       </Routes>
-    
-    
-    
-
-    
-
-
-
-    {/* <CardGrid data={productos} /> */}
-    
-
-
 
     <Footer />
 

@@ -12,6 +12,9 @@ export const Inicio = () => {
     <Destacados/>
     <Confiar/>
     
+
+
+    
     </>
   )
 }

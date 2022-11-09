@@ -1,8 +1,13 @@
 import React from 'react'
+import { Origen } from '../Origen/Origen'
+
 
 export const SobreNosotros = () => {
   return (
-    <h1>sobre nos</h1>
+    <>
+    <Origen/>
+    </>
+    
     
   )
 }
