@@ -17,7 +17,7 @@ export const Origen = () => {
 
                     <div class="col-6">
                         <h1 id="titulo"><strong> ORIGEN</strong> </h1>
-                        <p> Nuestros productos premium son desarrollada bajo los más altos estándares de calidad y responsabilidad.</p> <br></br>
+                        <p> Nuestros productos premium son desarrollados bajo los más altos estándares de calidad y responsabilidad.</p> <br></br>
                         <p id="flores"> ✤  ✤  ✤ </p> <br />
                         <p>
                             Producida y envasada en el sur de la provincia de Misiones, zona en la que se encuentra la mejor calidad de materia prima.De sabor intenso, con tonos ahumados y un leve amargor, Origen nace inspirada en el trabajo y la pasión de los antiguos productores de yerba mate.<br></br> Nuestro exclusivo blend es el resultado de la cuidadosa selección de materias primas, el tradicional secado barbacuá y el prolongado estacionamiento natural. Es la opción ideal para quienes buscan el sabor tradicional y las propiedades energizantes y antioxidantes de la yerba mate.

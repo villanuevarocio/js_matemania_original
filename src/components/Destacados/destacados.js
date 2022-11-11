@@ -1,5 +1,5 @@
 import React from "react"
-import { producto1, producto2, producto3, producto4, producto5, producto6, producto7} from "../../assets"
+import { m2, producto2, producto3, producto4, producto5, producto6, producto7} from "../../assets"
 import './destacados.css'
 
 export const Destacados = () =>{
@@ -16,7 +16,7 @@ export const Destacados = () =>{
                   <div class="row row-cols-4 row-cols-md-4">
                     <div class="col">
                       <div class="card">
-                        <img src= {producto1} class="card-img-top"/>
+                        <img src= {m2} class="card-img-top"/>
                         <div class="card-body">
                           <h5 class="card-title">MATE DELUXE DE ALGARROBO -LISO-</h5>
                           <p class="card-text"><small class="text-muted"><del>$10.640,00</del></small><strong> $7.980,00</strong> <br/>

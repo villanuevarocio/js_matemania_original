@@ -1,5 +1,6 @@
 #footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #5F7161
 }
 
 .img_footer{
@@ -11,17 +12,9 @@
     align-items: right;
 }
 
-#fotos_redes{
-    align-items: right;
-}
-
-#titulo_redes{
-    text-align: right;
-}
-
 a:hover{
     text-decoration: none;
-    color: darksalmon;
+    color: #FAD6A5;
 }
 
 footer a{
