@@ -6,8 +6,8 @@ export function FormularioContacto() {
         <><section class="conteiner"><div class="row g-4 py-5">
 
             <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-secondary rounded-5 shadow-lg" id="contactanos">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <div class="card card-cover h-100 overflow-hidden text-dark bg-light rounded-5" id="contactanos">
+                    <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
                         <h1><strong> CONTACTANOS !</strong></h1>
 
                         <form class="row g-3">

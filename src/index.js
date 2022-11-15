@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
+
 import './index.css';
 import App from './App';
 import { Inicio } from './components/pages/Inicio';
