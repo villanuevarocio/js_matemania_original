@@ -1,3 +1,7 @@
-#productos{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+@media screen and (max-width: 1000px){
+    .destacados{
+        display: inline-block;
+
+    }
 }
