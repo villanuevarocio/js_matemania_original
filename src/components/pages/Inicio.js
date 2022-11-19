@@ -12,7 +12,7 @@ export const Inicio = () => {
       <Carrusel/> 
       <Destacados/>
       <Confiar/>
-      
+      <FotProd/>
     
     </>
   )

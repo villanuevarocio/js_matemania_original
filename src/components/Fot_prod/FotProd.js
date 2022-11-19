@@ -5,17 +5,30 @@ import { personalizado1 } from '../../assets'
 export const FotProd = () => {
     return(
         <section id="foto_prod">
-            <div class="row p-5">
-                <div class="col-md-7">
-                    <h2 class="heading"> Te hacemos tu mate a la medida </h2>
-                    <p class="lead">Realizamos mates personalizados a medida, para que tu mate sea unico.</p>
-                    <div className="mt-5">
-                        <button className="btn btn-sm btn-outline-success"> Contactanos </button>
+            <div className="container py-5">
+
+                <div className="row text-black">
+
+                    <div className="col-lg-6 col-md-12">
+                        <img classNameName="img-responsive" src={personalizado1} width="400px" alt="..." />
                     </div>
+
+                    <div className="col-lg-6 col-md-12 mt-4">
+                        <h1 id="titulo"><strong> Realizamos mates personalizado a pedido</strong> </h1>
+                        <h3> Nuestros productos premium son desarrollados bajo los más altos estándares de calidad y responsabilidad.</h3> <br></br>
+                        <h3>
+                        Cada calabaza crece distinta, a su tiempo y con su forma. Mas Grandes, mas pequeñas, mas angostas o amplias:
+                        la naturaleza no se repite, siempre crea.
+                        Al pasa los años tu palma desarrolla un vinculo unico con aquella textura, con aquella forma,
+                        y cada nuevos encuentro con tu mate es un reencuentro con experiencias vividas, momentos guardados y sensaciones grabadas.
+                        </h3>
+                        <div className="d-grid mt-4">
+                            <button className="btn btn-sm btn-outline-success"> Contactanos por nuestro tu mate presonalizado</button>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="col-md-5">
-                    <img src={personalizado1} className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" alt="..." />
-                </div>
+
             </div>
       </section>
 
