@@ -7,15 +7,15 @@ import './origen.css'
 export const Origen = () => {
     return (
 
-     <><></><section class="sobre_nosotros" id="sobre_nosotros">
-            <div class="container">
+     <><></><section className="sobre_nosotros" id="sobre_nosotros">
+            <div className="container">
 
-                <div class="row text-black">
-                    <div class="col-6">
-                        <img src={origen} width="400px" />
+                <div className="row text-black">
+                    <div className="col-lg-6 col-md-12 ">
+                        <img classNameName="img-responsive" src={origen} width="400px" alt="..." />
                     </div>
 
-                    <div class="col-6">
+                    <div className="col-lg-6 col-md-12 mt-4">
                         <h1 id="titulo"><strong> ORIGEN</strong> </h1>
                         <p> Nuestros productos premium son desarrollados bajo los más altos estándares de calidad y responsabilidad.</p> <br></br>
                         <p id="flores"> ✤  ✤  ✤ </p> <br />
@@ -29,11 +29,11 @@ export const Origen = () => {
                 </div>
 
             </div>
-        </section><section class="sobre_nosotros" id="quienes_somos">
-                <div class="container">
+        </section><section className="sobre_nosotros" id="quienes_somos">
+                <div className="container">
                     <hr />
 
-                    <div class="col-12">
+                    <div className="col-12">
                         <h1>QUIENES SOMOS ?</h1>
                         <p> Somos una familia matera, que se encarga de brindarte los mejores insumos CheMateros para todas tus necesidades.Nos caracterizamos por tener buena calidad en nuestros productos y muy buena atención.<br /> <br /> Nos enfocamos en los detalles y en la atención personalizada para poder brindar un servicio cálido y eficiente. En Che Mate no solo ofrecemos insumos materos sino también productos que conllevan historias, leyendas, buenos momentos y costumbres de nuestros pasado, presente y futuro.</p>
                         <p>¡TE INVITAMOS A SER UN #MATEMANIACO!</p>
