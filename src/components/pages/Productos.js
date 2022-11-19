@@ -10,7 +10,6 @@ export const Productos2 = () => {
         {data.productos.map((item, index) => {
           return (
             <Cards img={item.img} titulo={item.nombre} text={item.text} precio={item.precio} key={index} />
-
           )
         })}
       </div>
