@@ -3,3 +3,10 @@
     object-fit: cover;
     height: 700px;
 }
+@media (max-width: 900px) {
+    
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+}
