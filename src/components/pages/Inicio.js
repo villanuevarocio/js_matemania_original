@@ -10,8 +10,8 @@ export const Inicio = () => {
     <>
 
       <Carrusel/> 
-      <Destacados/>
       <Confiar/>
+      <Destacados/>
       <FotProd/>
     
     </>

@@ -29,7 +29,7 @@ export const Carrito = (props) => {
         </div>
           {
             carrito.length > 0 ? 
-            <section className="container-fluid">
+            <section className="d-grid gap-2">
               <button className="btn btn-sm btn-outline-primary limpiar" onClick={() => limpiarCarrito()}>Limpiar Carrito</button>
               <h3 className="limpiar">Total: {totalCarrito()}</h3>
             </section> : 

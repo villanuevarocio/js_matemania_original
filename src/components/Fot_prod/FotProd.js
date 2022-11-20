@@ -1,6 +1,7 @@
 import React from "react"
 import './FotProd.css'
 import { personalizado1 } from '../../assets'
+import { Link } from "react-router-dom"
 
 export const FotProd = () => {
     return(
@@ -23,7 +24,11 @@ export const FotProd = () => {
                         y cada nuevos encuentro con tu mate es un reencuentro con experiencias vividas, momentos guardados y sensaciones grabadas.
                         </h3>
                         <div className="d-grid mt-4">
-                            <button className="btn btn-sm btn-outline-success"> Contactanos por nuestro tu mate presonalizado</button>
+                            <button className="btn btn-sm btn-outline-primary">
+                                <Link to="/contacto">
+                                Contactanos para tu mate personalizado
+                                </Link>
+                            </button>
                         </div>
                     </div>
 

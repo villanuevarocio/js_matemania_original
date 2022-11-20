@@ -3,7 +3,8 @@ import './formulario.css'
 
 export function FormularioContacto() {
     return (
-        <><section class="conteiner"><div class="row g-4 py-5">
+<> 
+        <section class="conteiner"><div class="row g-4 py-5">
 
             <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-dark bg-light rounded-5" id="contactanos">
@@ -50,7 +51,10 @@ export function FormularioContacto() {
                 </div>
             </div>
 
-        </div></section></> 
+        </div></section>
+    
+        
+        </>
                 
 
    
