@@ -46,9 +46,13 @@ export const NavBar = () =>{
               </li>
               <li id="icons">
                 <div class="h3">
-                  <i class="bi bi-cart-fill"></i>
+                  <Link to="Cart">
+                    <li>
+                      <a class="nav-link"><i class="bi bi-cart-fill"></i></a>
+                    </li>
+                  </Link>
                 </div>
-              </li>
+            </li>
             </ul>
             <form class="d-flex">
               <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search"/>
