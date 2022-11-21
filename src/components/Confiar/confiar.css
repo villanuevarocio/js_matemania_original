@@ -3,6 +3,9 @@
     margin-top: 50px;
     margin-bottom: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: large;
 }
 
 @media screen and (max-width: 700px){

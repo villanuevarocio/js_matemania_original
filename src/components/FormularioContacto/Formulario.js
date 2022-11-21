@@ -3,14 +3,14 @@ import './formulario.css'
 
 export function FormularioContacto() {
     return (
-<><section class="conteiner"><div class="row g-4 py-5">
+<><section class="container"><div class="row g-4 py-5">
 
 <div class="col">
-    <div class="card card-cover h-100 overflow-hidden text-dark bg-light rounded-5" id="contactanos">
-        <div class="d-flex flex-column h-100 p-5 pb-3 text-dark text-shadow-1">
-            <h1><strong> CONTACTANOS !</strong></h1>
+    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5">
+        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <h1 id="contactanos"><strong> CONTACTANOS !</strong></h1>
 
-            <form class="row g-3">
+            <form class="row g-3" id='texto'>
                 <div class="col-12">
                     <label for="inputEmail4" class="form-label">Nombre y Apellido</label>
                     <input type="email" class="form-control" id="inputEmail4" />
@@ -44,7 +44,7 @@ export function FormularioContacto() {
 
                 </div>
                 <br />
-                <button type="button" class="btn btn-dark">Enviar</button>
+                <button type="button" class="btn btn-secondary">Enviar</button>
             </form>
         </div>
     </div>

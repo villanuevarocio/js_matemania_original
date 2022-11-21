@@ -3,10 +3,15 @@ import { data } from '../../data/productos'
 import Cards2 from '../Cards2/Cards2'
 
 export const Destacados = () => {
-  return (
+  return ( 
     <div className='container-fluid'>
     <div className='container py-4'>
-      <div className='row'>
+      <div className='row'> 
+     <section id="titulo">
+      <h2> Nuestros productos destacados <br />
+          <small className="text-muted">Lo que eligen los argentinos.</small>
+      </h2>    
+      </section>     
         {data.productos.map((item, index) => {
           if(index < 4){
             return (

@@ -2,18 +2,18 @@ import React from 'react'
 import { Carrusel } from '../Carrusel/carrusel'
 import { Confiar } from '../Confiar/Confiar'
 import { Destacados } from '../Destacados/destacados'
-import { FotProd } from '../Fot_prod/FotProd'
-
+import { Mate_Personalizado } from '../Mate_Personalizado/Mate_Personalizado'
 
 export const Inicio = () => {
   return (
     <>
 
       <Carrusel/> 
-      <Confiar/>
+      <br></br>
       <Destacados/>
-      <FotProd/>
-    
+      <Confiar/>
+      <br></br>
+      <Mate_Personalizado/>
     </>
   )
 }

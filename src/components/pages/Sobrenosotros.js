@@ -6,6 +6,7 @@ export const SobreNosotros = () => {
   return (
     <>
     <Origen/>
+    <br></br>
     </>
     
     

@@ -7,3 +7,12 @@
         width: 70%;
     }
 }
+
+#parrafo{
+    font-size: x-large;
+    text-align: justify;
+}
+
+#boton{
+    font-size: large;
+}

@@ -31,14 +31,15 @@ export const Origen = () => {
             </div>
         </section><section className="sobre_nosotros" id="quienes_somos">
                 <div className="container">
-                    <hr />
+                    <br></br>
 
                     <div className="col-12">
-                        <h1>QUIENES SOMOS ?</h1>
-                        <p> Somos una familia matera, que se encarga de brindarte los mejores insumos CheMateros para todas tus necesidades.Nos caracterizamos por tener buena calidad en nuestros productos y muy buena atención.<br /> <br /> Nos enfocamos en los detalles y en la atención personalizada para poder brindar un servicio cálido y eficiente. En Che Mate no solo ofrecemos insumos materos sino también productos que conllevan historias, leyendas, buenos momentos y costumbres de nuestros pasado, presente y futuro.</p>
+                        <h1>QUIÉNES SOMOS ?</h1>
+                        <p> Somos una familia matera, que se encarga de brindarte los mejores insumos materos para todas tus necesidades. Nos caracterizamos por tener buena calidad en nuestros productos y muy buena atención.<br /> <br /> Nos enfocamos en los detalles y en la atención personalizada para poder brindar un servicio cálido y eficiente. En MateManía no solo ofrecemos insumos materos sino también productos que conllevan historias, leyendas, buenos momentos y costumbres de nuestros pasado, presente y futuro.</p>
                         <p>¡TE INVITAMOS A SER UN #MATEMANIACO!</p>
 
                     </div>
+                    <br></br>
 
                 </div>
             </section></>

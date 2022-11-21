@@ -1,11 +1,10 @@
 import { Link } from 'react-router-dom';
-
 const Cards = (props) => {
     return (
         <>
             <div className="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-xxl-3 mb-4 mb-4">
                 <div className="card h-100 shadow">
-                <img src={props.img} alt="" className="card-img-top img-fluid" />
+                <img src={props.img} alt="mate" className="card-img-top img-fluid" />
                     <div className="card-body">
                         <div className="d-flex justify-content-between">
                         <h5 className="card-title">{props.titulo}</h5>
@@ -15,10 +14,10 @@ const Cards = (props) => {
                         <p className="card-text">{props.text}</p>
                         </div>
                         <div className="d-grid justify-content mt-4">
-                            <button className="btn btn-sm btn-outline-primary">
+                            <button className="btn btn-sm btn-outline-dark">
                             <div class="nav-item mb-2"><Link
-                            to="/productos">
-                            Mira nuestros productos
+                            to="/productos" className='text-success'>
+                            Mirá nuestros productos
                             </Link>
                         </div>
                         </button>

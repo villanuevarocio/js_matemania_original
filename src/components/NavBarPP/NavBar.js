@@ -41,7 +41,7 @@ export const NavBar = () =>{
               <li class="nav-item">
                   <Link
                   to="sobrenosotros">
-                  <li><a class="nav-link">SobreNosotros</a></li>
+                  <li><a class="nav-link">Sobre Nosotros</a></li>
                   </Link>
               </li>
               <li id="icons">
@@ -54,10 +54,6 @@ export const NavBar = () =>{
                 </div>
             </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
