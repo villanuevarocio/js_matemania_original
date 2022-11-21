@@ -6,23 +6,23 @@ const Cards = (props) => {
                 <img src={props.img} alt="" className="card-img-top img-fluid" />
                     <div className="card-body">
                         <div className="d-flex justify-content-between">
-                        <h5 className="card-title">{props.titulo}</h5>
-                        <span className="fw-bolder">${props.precio}</span>
+                          <h5 className="card-title">{props.titulo}</h5>
+                          <span className="fw-bolder">${props.precio}</span>
                         </div>
                         <div className="">
-                        <p className="card-text">{props.text}</p>
+                          <p className="card-text">{props.text}</p>
                         </div>
                         <div className="d-grid justify-content-end mt-4">
                         {props.agregarProducto ?
-                        <button onClick={() => props.agregarProducto(props.titulo)} className="btn btn-sm btn-outline-success">
-                            {" "}
-                            Agregar al carrito
-                        </button>
-                        :
-                        <button onClick={() => props.eliminarProducto(props.titulo)} className="btn btn-sm btn-outline-danger">
-                            {" "}
-                            Eliminar del carrito
-                        </button>}
+                            <button onClick={() => props.agregarProducto(props.titulo)} className="btn btn-sm btn-outline-success">
+                                {" "}
+                                Agregar al carrito
+                            </button>
+                            :
+                            <button onClick={() => props.eliminarProducto(props.titulo)} className="btn btn-sm btn-outline-danger">
+                                {" "}
+                                Eliminar del carrito
+                            </button>}
                         </div>
                     </div>
                 </div>

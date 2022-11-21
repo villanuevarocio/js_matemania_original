@@ -8,6 +8,7 @@ export const Carrito = (props) => {
     props.props.props;
 
   return (
+
     <div className="container-fluid">
       <div className="container py-4">
         <div className="row">
@@ -26,16 +27,17 @@ export const Carrito = (props) => {
               </div>
             ))}
           </div>
-        </div>
+        </div> 
           {
             carrito.length > 0 ? 
             <section className="d-grid gap-2">
               <button className="btn btn-sm btn-outline-primary limpiar" onClick={() => limpiarCarrito()}>Limpiar Carrito</button>
-              <h3 className="limpiar">Total: {totalCarrito()}</h3>
+              <h3 className="limpiar">Total: ${totalCarrito()}</h3>
             </section> : 
             <h3 Style={"text-align:center"}>No hay productos en el carrito</h3>
           }
       </div>
     </div>
+    
   );
 };

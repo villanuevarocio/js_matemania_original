@@ -11,7 +11,7 @@ export const FotProd = () => {
                 <div className="row text-black">
 
                     <div className="col-lg-6 col-md-12">
-                        <img classNameName="img-responsive" src={personalizado1} width="400px" alt="..." />
+                        <img classNameName="img-responsive" src={personalizado1} id="imagen" alt="..." />
                     </div>
 
                     <div className="col-lg-6 col-md-12 mt-4">
